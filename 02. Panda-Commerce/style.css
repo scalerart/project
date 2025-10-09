@@ -5,6 +5,11 @@ body {
     margin-bottom: 100px;
 }
 
+.sec-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
 .sec-heading h3 {
     color: #ff9d00;
     font-size: 20px;
@@ -98,11 +103,6 @@ body {
 .card-body p {
     color: gray;
 }
-
-.sec-heading {
-    display: flex;
-    justify-content: space-between;
-}
 /* shoes section ends */
 
 /* subscribe section starts */
@@ -121,3 +121,9 @@ body {
     width: 100px;
 }
 /* subscribe section ends */
+
+/* footer section starts */
+footer {
+    text-align: center;
+}
+/* footer section ends */
