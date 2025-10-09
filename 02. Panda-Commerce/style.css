@@ -1,0 +1,123 @@
+body {
+    scroll-behavior: smooth;
+}
+.container {
+    margin-bottom: 100px;
+}
+
+.sec-heading h3 {
+    color: #ff9d00;
+    font-size: 20px;
+}
+
+/* carousel starts */
+.bg-color {
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    padding: 20px 40px;
+}
+
+.price {
+    color: #ff136f;
+}
+
+.buy-now-btn {
+    background-image: linear-gradient(rgb(255, 88, 155) 0%, rgb(255, 19, 111) 100%);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-style: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+.carousel-item h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.carousel-item h2 {
+    font-size: 40px;
+}
+/* carousel ends */
+
+/* Categories Starts*/
+.cat-1, .cat-2, .cat-3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat-1 {
+    background-image: linear-gradient(0deg, orange 0%, rgb(248, 183, 63) 100%);
+}
+
+.cat-2 {
+    background-image: linear-gradient(0deg, orchid 0%, rgb(253, 164, 226) 100%);
+}
+
+.cat-3 {
+    background-image: linear-gradient(0deg, blue 0%, rgb(74, 138, 255) 100%);
+}
+
+.categories h2 {
+    color:  white;
+    font-size: 40px;
+}
+
+.categories img {
+    width: 100px;
+}
+
+.categories h1 {
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+/* Categories Ends*/
+
+/* shoes section starts */
+.shoes h1 {
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.shoes-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(128, 128, 128, 0.4);
+    text-align: center;
+}
+.card-body .buy-now-btn {
+    margin-top: 10px;
+}
+
+.card-body h5 {
+    font-weight: 700;
+}
+
+.card-body p {
+    color: gray;
+}
+
+.sec-heading {
+    display: flex;
+    justify-content: space-between;
+}
+/* shoes section ends */
+
+/* subscribe section starts */
+#subscribe {
+    height: 300px;
+}
+
+.subscribe-content {
+    text-align: center;
+}
+
+.subscribe-content .send {
+    margin-top: 10px;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+}
+/* subscribe section ends */
