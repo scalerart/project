@@ -3,6 +3,7 @@ body {
 }
 .container {
     margin-bottom: 100px;
+    scroll-margin: 50px;
 }
 
 .sec-heading {
@@ -40,7 +41,7 @@ body {
 
 .carousel-item h1 {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: bold;
 }
 
 .carousel-item h2 {
@@ -49,9 +50,13 @@ body {
 /* carousel ends */
 
 /* Categories Starts*/
+.categories {
+    height: 75%;
+}
 .cat-1, .cat-2, .cat-3 {
     padding: 10px 30px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .cat-1 {
     background-image: linear-gradient(0deg, orange 0%, rgb(248, 183, 63) 100%);
