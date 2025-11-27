@@ -1,0 +1,102 @@
+.container-xl {
+    margin-bottom: 70px;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.navbar-BG {
+    background-color: #faedec;
+    padding: 10px 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.logo_size {
+    width: 60%;
+}
+
+.buy_btn {
+    color: white;
+    padding: 5px 8px;
+    border-radius: 7px;
+    background-color: black;
+    border: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+/* carousel-item */
+.carousel-item p {
+    color: gray;
+    font-size: 15px;
+}
+
+
+/* Phone Section */
+.card-body h5 {
+    font-size: 20px;
+    padding: 7px 0;
+}
+
+.card-body p {
+    color: gray;
+    font-size: 13px;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+.phone-card {
+    border: none;
+    background-color: white;
+    box-shadow: 5px 5px 8px rgba(128, 128, 128, 0.35);
+    border-radius: 10px;
+}
+
+.phone-card img {
+    width: 250px;
+}
+
+/* Categories */
+.categories {
+    position: relative;
+}
+
+.categories h1 {
+    font-size: 30px;
+}
+.categories h1::after {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: 44%;
+    width: 150px;
+    height: 8px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.perfume_shoe {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 15px 15px;
+    margin: 65px;
+}
+
+.perfume_shoe h3 {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.perfume_shoe img {
+    width: 80px;
+}
