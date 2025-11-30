@@ -84,6 +84,10 @@ body {
     border-radius: 5px;
 }
 
+.categories_02 img {
+    width: 100%;
+}
+
 .perfume_shoe {
     width: 150px;
     height: 150px;
@@ -100,3 +104,47 @@ body {
 .perfume_shoe img {
     width: 80px;
 }
+
+/* subscribe section starts */
+#contact_us {
+    height: 300px;
+}
+
+.bg-color {
+    background-color: #faedec;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.subscribe-content {
+    text-align: center;
+}
+
+.subscribe-content .send {
+    margin-top: 10px;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+}
+
+.send {
+    color: white;
+    padding: 5px 8px;
+    border-radius: 7px;
+    background-color: black;
+    border: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+/* subscribe section ends */
+
+/* footer section starts */
+footer {
+    text-align: center;
+}
+/* footer section ends */
